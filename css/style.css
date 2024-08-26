@@ -1,0 +1,329 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+}
+
+
+/* ================================================================================================= */
+/* ============= start section 1 =================================================================== */
+/* ================================================================================================= */
+.section1{
+    height: 130vh;
+    background-color: #0E1D34;
+    background-image: url('../img/hero-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.section1 .navbar{
+    position: fixed;
+    top: 0px;   
+    /* width: 90%; */
+    background-color: rgb(14, 29, 52);
+}
+.section1_title{
+    font-size: 45px;
+}
+.section1 .nav-item{
+    display: flex;
+    align-items: center;
+    margin: 0px 12px;
+}
+
+#inputPassword2:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.section1 .getquote{
+    padding: 10px 20px;
+}
+
+.section1 .header_img{
+    transform: scale(0.9);
+}
+
+
+/* table */
+@media (max-width : 768px) {
+    .section1 {
+        height: auto;
+    }
+    .section1 .header_img {
+        transform: scale(0.7);
+    }
+    .section1_content_img{
+        order: -1;
+    }
+}
+
+
+/* Mobile */
+@media (max-width : 552px) { 
+
+    .section1 .header_img {
+        transform: scale(0.8);
+    }
+    .section1_title{
+        font-size: 40px;
+    }
+}
+/* ================================================================================================= */
+/* ============= end section 1 =================================================================== */
+/* ================================================================================================= */
+
+
+
+
+
+
+
+/* ================================================================================================= */
+/* ============= end section 2  About us========================================================== */
+/* ================================================================================================= */
+
+.section2 .card:hover .fa-cart-flatbed{
+    color: #0D6EFD !important;
+}
+
+.section2 .card:hover .card-title a{
+    color: #0D6EFD !important;
+}
+.section2 .card:hover .card-text a{
+    color: #0D6EFD !important;
+}
+
+/* ================================================================================================= */
+/* ============= end section 2 =================================================================== */
+/* ================================================================================================= */
+
+
+
+/* ================================================================================================= */
+/* ============= end section 3  services========================================================== */
+/* ================================================================================================= */
+
+
+.section3 .title{
+    width: 100%;
+    height: 85px;
+    /* background-color: gray; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .title .background{
+
+        /* background-color: green; */
+        position: absolute;
+        transform: scale(1.3 ,1.5);
+        color: rgb(173, 171, 171);
+        opacity: 0.2;
+        font-weight: bold;
+    
+}
+
+.section3 .title .head{
+    /* background-color: blue; */
+    position: absolute;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: #001973;
+
+}
+
+.section3 .title .undeline
+{
+    width: 60px;
+    height: 5px;
+    background-color: #0D6EFD;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.section3 .row{
+    justify-content: center;
+}
+
+.section3 .row .card{
+    width: 18rem !important;
+}
+
+
+/* table */
+@media (max-width : 768px) {
+    .section3 .row .card{
+        width: 20rem !important;
+        margin: auto;
+    }
+}
+
+
+
+
+/* -----------------------call to action---------------------------------------------------- */
+
+.section3_calltoaction{
+    height: 75vh;
+    background-image: url('../img/cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.section3_calltoaction .layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 54, 54, 0.7);
+    color: white;
+
+    padding: 100px 5px;
+    text-align:  center;
+
+}
+
+
+
+/* ================================================================================================= */
+/* ============= end section 3 =================================================================== */
+/* ================================================================================================= */
+
+
+
+
+/* ================================================================================================= */
+/* ============= start section 4 Pricing=================================================================== */
+/* ================================================================================================= */
+
+
+
+.section4_pricing{
+    height: 75vh;
+    background-image: url('../img/testimonials-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 150px;
+    
+}
+
+.section4_pricing .layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 54, 54, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.section4_pricing .layout .slider
+{
+    width: 70%;
+    height: 80%;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.carousel-item {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.carousel-item img{
+    border: 5px solid rgba(231, 227, 227, 0.733);
+}
+
+.choose{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important; 
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+.fa-star{
+    color: gold;
+}
+/* ================================================================================================= */
+/* ============= end section 4 =================================================================== */
+/* ================================================================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================================= */
+/* ============= foooter =================================================================== */
+/* ================================================================================================= */
+
+.footer
+{
+    height: 70vh;
+    background-color: #0E1D34;
+
+}
+
+.footer .usefulLinks{
+    padding: 0px;
+}
+.footer .usefulLinks li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+.footer .usefulLinks li a{
+    color: gray !important;
+    text-decoration: none;
+
+}
+
+
+
+/* ================================================================================================= */
+/* ============= footer =================================================================== */
+/* ================================================================================================= */
